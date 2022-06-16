@@ -1,0 +1,22 @@
+<html>
+<head>
+<script language="javaScript" type="text/javascript">
+function display()
+{
+	DispWin = window.open('','NewWin','toolbar=no,status=no,width=300,height=200')
+	message1 = document.form1.name.value +"<br>"+ document.form1.player.value;
+
+	alert(message1);
+}
+</script>
+</head>
+<body>
+<h1>form</h1>
+<form name="form1">
+<p><b>Name:</b><input type="text" size="20" name="name"></p>
+<p><b>Player:</b><input type="text" size="20" name="player"></p>
+<p><b>Credits:</b><input type="text" size="20" name="credits"></p>
+<p><input type="button" value="display" onClick="display();"></p>
+</form>
+</body>
+</html>

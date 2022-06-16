@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+}
+body
+{
+    font-family: Roboto, sans-serif;
+    background: #353535;
+}
+.container
+{
+    width: 280px;
+    height: 500px;
+    margin: 60px auto;
+    margin-left: 1000px;
+}

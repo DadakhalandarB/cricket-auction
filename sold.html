@@ -1,0 +1,37 @@
+<html>
+<style>
+.h1{background-color:#f2f2f2;
+color:Black; 
+font-family: comic sans ms; 
+}
+.h2{
+font-family: comic sans ms; }
+.right{
+float:right;}
+input[class=right]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: comic sans ms;
+  font-size:25px;
+  right: 72px;
+	bottom: 35px;
+	position:absolute;
+}
+</style>
+<body bgcolor="affan">
+<center>
+<h1 class="h1" >PLAYER DETAILS</h1>
+<form action="sold_price.php" method="post">
+<div class="h2">NAME : <input type="text" name="name" placeholder="Playername"/><br><br></div>
+<div class="h2">SOLD_TO : <input type="text" name="sold_to" placeholder="Team Name"/><br><br></div>
+<div class="h2">SOLD_PRICE : <input type="text" name="sold_price" placeholder="Sold Price"/><br><br></div>
+<input type="submit" value="submit"/></center>
+</form>
+<a href="index.html"><input type="submit" value="HOME" class="right"></a>
+</body>
+</html>

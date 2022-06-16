@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.about{
+      width:100%;
+      height: 600px;
+      background-image: url(cricket7.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+}
+.about ul{
+	display: inline-flex;
+    margin: 50px;
+    right: 72px;
+	bottom: 5px;
+	
+}
+.about ul li{
+	list-style: none;
+	margin: 0 30px;
+	background-color: rgb(0,0,0);
+	cursor: pointer;
+	opacity: .8;
+}
+.text{
+    font-size: 30px;
+    color: rgba(255,255,255);
+    font-family: comic sans ms;
+    text-shadow: 0px 15px 12px #000;
+}
+.line{
+    idth: 200px;
+    height: 8px;
+    background-color: lawngreen;
+    display: block;
+    position: relative;
+    left: 8%;
+    box-shadow: 0px 15px 12px 0px #000;
+}
+.content{
+    width: 100%;
+    height: auto;
+    background-color: #000; 
+    font-size: 23px;
+    font-family:  comic sans ms;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.icpl{
+    width:50%;
+    height: auto;
+    float:right;
+}
+.icpl p{
+    color: rgb(125,125,125);
+}
+.auction{
+    width:50%;
+    height: auto;
+    float: left:
+
+}
+.auction p{
+    color: rgb(125,125,125);
+}
